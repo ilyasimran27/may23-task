@@ -1,0 +1,167 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+.main{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+}
+.taskbar{
+    display:flex;
+    width:25%;
+    height:100vh;
+    flex-direction: column;
+    border:1px solid black;
+    background-color:#3f0e40;
+    
+
+
+}
+.tk-2019{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    
+   
+
+
+}
+.tk-2019 .head{
+    color:white;
+    font-size: 15px;
+
+}
+.tk-2019 .head h2,p{
+    margin:0;
+    margin-top:10px;
+    margin-left:10px;
+}
+.tk-2019 i{
+    margin-right:20px;
+    margin-top:10px;
+    font-size:30px;
+    color:white;
+    font-weight: 200;
+}
+.taskbar .search{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.taskbar .search input{
+    width:50%;
+    align-self: center;
+    margin:10px 0;
+    border-radius: 5px;
+    background-color:#260027;
+    color:white;
+}
+.taskbar .search button{
+    padding:5px 10px;
+    margin:2px;
+    border:none;
+    background-color:#3f0e40;
+    color:white;
+    text-align: center;
+}
+.taskbar .search button i{
+    margin:0 10px;
+}
+.taskbar .channel{
+    display:flex;
+    flex-direction: column;
+
+}
+.taskbar .channel .mainch{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.mainch h3{
+    margin:0;
+    margin-left:10px;
+    color:white;
+    cursor: pointer;
+}
+.mainch i{
+    color:white;
+    margin-right:40px;
+}
+.channel h4{
+    margin:0;
+    color:white;
+margin-bottom:3px;
+margin-left:2px;
+cursor: pointer;
+    
+}
+.channel h4:hover{
+    background-color:lightblue;
+}
+#mypage{
+    color:black;
+}
+.chatbox{
+display:flex;
+width:70%;
+
+flex-direction: column;
+border:1px solid black;
+
+
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:20px;
+}
+.heading{
+    display:flex;
+    flex-direction: column;
+}
+header .heading h2{
+    margin:0;
+    margin-bottom:10px;
+    
+}
+header .heading .iconheader i{
+    margin-left:10px;
+    border-right:1px solid black;
+    padding:0 10px;
+}
+header .contact i{
+    margin:10px 10px;
+    
+    
+}
+header .contact input{
+    margin-right:10px;
+    border-radius: 20px;
+}
+fieldset{
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+}
+legend{
+    text-align: center;
+}
+.chatcontent{
+    display:flex;
+    justify-content: flex-start;
+}
+.name {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name h3,p{
+    margin:0;
+}
+span{
+    margin-left:30px;
+}
+
+
