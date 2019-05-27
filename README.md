@@ -3,6 +3,3 @@
 Check the mockups folder and create a pixel perfect clone! 
 
 **Submit your Github Repo URL and Github Pages URL via**  [this form](https://forms.gle/hpnwWht8xTLjqHnH8)
-
-
-launh at : https://ilyasimran27.github.io/may23-task/
