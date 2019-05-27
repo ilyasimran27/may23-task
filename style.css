@@ -9,11 +9,12 @@
 }
 .taskbar{
     display:flex;
-    width:25%;
+    width:20%;
     height:100vh;
     flex-direction: column;
     border:1px solid black;
     background-color:#3f0e40;
+    justify-content: first baseline;
     
 
 
@@ -21,7 +22,10 @@
 .tk-2019{
     display:flex;
     justify-content: space-between;
-    margin-top:10px;
+    margin:10px 15px;
+    align-items: flex-start;
+  
+    
     
    
 
@@ -30,81 +34,133 @@
 .tk-2019 .head{
     color:white;
     font-size: 15px;
-
+    
 }
-.tk-2019 .head h2,p{
+.tk-2019 .head h2{
+    
     margin:0;
-    margin-top:10px;
     margin-left:10px;
 }
+.tk-2019 p{
+    color:#826580;
+}
+.tk-2019 .head span{
+    color:green;
+    margin:0;
+    margin-left:5px;
+    font-size:10px;
+
+   
+}
 .tk-2019 i{
-    margin-right:20px;
-    margin-top:10px;
+   
+  
     font-size:30px;
     color:white;
     font-weight: 200;
+    
 }
 .taskbar .search{
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
+  align-items: flex-start;
+  
+  color: #826580;
+  
+  
+  
 }
-.taskbar .search input{
-    width:50%;
-    align-self: center;
-    margin:10px 0;
+.taskbar .search .search-bar{
+    display:flex;
+    border:1px solid black;
+    justify-content: space-around;
     border-radius: 5px;
     background-color:#260027;
-    color:white;
+    width:90%;
+    padding:10px 0;
+    align-self: center;
+    
+    
+
+    
 }
+.search-bar input{
+   
+    border:none;
+    background:none;
+    outline:none;
+    float:right;
+   
+   
+}
+
 .taskbar .search button{
-    padding:5px 10px;
-    margin:2px;
+    
+   font-size:15px;
+    margin:15px 4px;
     border:none;
     background-color:#3f0e40;
-    color:white;
+    color:#826580;
     text-align: center;
+    
 }
 .taskbar .search button i{
     margin:0 10px;
 }
-.taskbar .channel{
+.channel{
     display:flex;
     flex-direction: column;
-
-}
-.taskbar .channel .mainch{
-    display:flex;
-    justify-content: space-evenly;
+    margin-bottom:30px;
+    
     
 }
-.mainch h3{
+.channel .mainch{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:4px 10px;
+    color: #826580;
+    font-size: 20px;
+
+}
+
+.mainch h4,p{
     margin:0;
-    margin-left:10px;
+    
+    
+}
+.channel{
+    cursor: pointer;
+}
+.channel p{
+    align-self: flex-start;
+    padding:2px 20px;
+    font-size:17px;
+    color: #826580;
+}
+.mainch:hover{
+    color:white;
+}
+.channel p:hover{
+    color:white;
+    
+}
+.channel p i{
+    font-size:10px;
+    color:green;
+}
+.taskbar .search button:hover{
     color:white;
     cursor: pointer;
 }
-.mainch i{
-    color:white;
-    margin-right:40px;
-}
-.channel h4{
-    margin:0;
-    color:white;
-margin-bottom:3px;
-margin-left:2px;
-cursor: pointer;
+.taskbar .search .search-bar:hover{
+    background-color: #fff;
     
 }
-.channel h4:hover{
-    background-color:lightblue;
-}
-#mypage{
-    color:black;
-}
+
 .chatbox{
 display:flex;
-width:70%;
+width:80%;
 
 flex-direction: column;
 border:1px solid black;
@@ -162,6 +218,18 @@ legend{
 }
 span{
     margin-left:30px;
+}
+
+@media all and (max-width:1000px){
+    .main{
+        flex-direction: column;
+    }
+    .taskbar{
+        width:100%;
+    }
+    .chatbox{
+        width:100%;
+    }
 }
 
 
