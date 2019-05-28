@@ -37,6 +37,10 @@
     font-size: 15px;
     
 }
+.tk-2019 .head h2 span{
+    color:white;
+    font-size: 20px;
+}
 .tk-2019 .head h2{
     
     margin:0;
@@ -135,7 +139,7 @@
 }
 .channel p{
     align-self: flex-start;
-    padding:2px 20px;
+    margin:2px 20px;
     font-size:17px;
     color: #826580;
 }
@@ -144,6 +148,7 @@
 }
 .channel p:hover{
     color:white;
+    background-color: lightblue;
     
 }
 .channel p i{
