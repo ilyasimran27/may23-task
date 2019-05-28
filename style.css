@@ -3,6 +3,11 @@
 /* Please use only lower-case letters */
 /* Your webpage should be 100% responsive!!! */
 
+body{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
 .main{
     display:flex;
     width:100%;
@@ -116,6 +121,7 @@
     display:flex;
     flex-direction: column;
     margin-bottom:30px;
+    background-color:#3f0e40;
     
     
 }
@@ -126,6 +132,7 @@
     margin:4px 10px;
     color: #826580;
     font-size: 20px;
+
 
 }
 
@@ -140,12 +147,13 @@
 .channel p{
     align-self: flex-start;
     margin:2px 20px;
-    font-size:17px;
+    font-size:15px;
     color: #826580;
 }
-.mainch:hover{
+ .channel .mainch:hover {
     color:white;
 }
+
 .channel p:hover{
     color:white;
     background-color: lightblue;
@@ -318,6 +326,8 @@ legend{
     .main .chatbox{
         width:100vh;
     }
+    
+    
 }
 
 
